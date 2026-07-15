@@ -5,3 +5,6 @@ app=Flask(__name__)
 def index():
     print("Flask is roaming")
     return 'hello'
+
+if __name__==('__main__'):
+    app.run(debug=True)
